@@ -12,5 +12,6 @@ function calculate(myNumber) {
     console.log(`dostałam ${myNumber}`);
 return myNumber*7;
 }
-const myResult = calculate(1);
+const myResult = calculate(12);
 
+console.log(myResult);
