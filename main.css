@@ -1,0 +1,12 @@
+.OnlyOneClass {
+    color: rgb(38, 19, 121);
+    min-width: 20px;
+    max-width: 60px;
+    background-color: rgb(255, 241, 46);
+    border-radius: 2px;
+    margin: auto;
+}
+
+.body{
+    background-color: rgb(71, 73, 83);
+}
