@@ -15,3 +15,10 @@ return myNumber*7;
 const myResult = calculate(12);
 
 console.log(myResult);
+
+function calculate(myNumber1) {
+    console.log(`Otrzymałam ${myNumber1}`);
+    return myNumber1+10;
+}
+const myResult1 = calculate(10);
+console.log(myResult1);
