@@ -7,20 +7,30 @@ html {
   
 .body{
     background-color: rgb(71, 73, 83);
+    color:rgb(2, 12, 57);
 }
 
 
 .flex {
-    border: 2px solid blue;
-    color: rgb(38, 19, 121);
-    min-width: 20px;
-    max-width: 60px;
-    background-color: rgb(255, 241, 46);
-    border-radius: 2px;
-    margin: auto;
+    border: 4px solid blue;
+    min-height: 100vh;
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+    
+   
+
 }
 
 .flex__item {
-
+    border: 3px solid rgb(119, 183, 236);
+    padding: 16px;
+    width: 300px;
+   
+    background:  rgb(255, 241, 46);
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+   
 }
 
